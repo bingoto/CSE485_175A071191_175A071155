@@ -1,0 +1,27 @@
+body{
+    margin:0 auto;
+}
+#manu_top{
+    background-color: blue;
+    height: 50px;
+}
+#manu_top ul li{
+    margin-left: 100px;
+    list-style: none;
+}
+#menu_truong{
+    background-color: brown;
+    height: 200px;
+}
+#noidung{
+    background-color: chartreuse;
+    height: 1000px;
+}
+#thongtin{
+    background-color: red;
+    height: 300px;
+}
+#lienhe{
+    background-color: blueviolet;
+    height: 100px;
+}

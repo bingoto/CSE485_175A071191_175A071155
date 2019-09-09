@@ -1,0 +1,60 @@
+#ngay{
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    width: 50px;
+}
+body{
+    margin: 0 auto;
+    display: flex;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+
+}
+.xt{
+    color: blue;
+}
+
+#mm{
+    color: blue;
+}
+.id1{
+    width: 25%;
+    font-size: 18px;
+}
+.id2{
+    width: 25%;
+}
+.id3{
+    width: 25%;
+}
+
+
+.cvn{
+    font-size: 20px;
+    size: 30px;
+}
+li{
+    list-style-type: none;
+}
+#ngay{
+    width: 100px;
+    height: 100px;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 10px;
+}
+.id1{
+    text-align: justify;
+}
+.id{
+    
+}
