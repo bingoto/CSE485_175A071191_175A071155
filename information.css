@@ -1,0 +1,100 @@
+body{
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 80px;
+}
+.sub_1 a:hover {
+    text-decoration: underline;
+    color: yellow;
+ }
+ .sub_2 a:hover {
+    text-decoration: underline;
+    color: yellow;
+ }
+ .sub_3 a:hover {
+    text-decoration: underline;
+    color: yellow;
+ }
+ .sub-page a:hover {
+    text-decoration: none;
+    list-style: none;
+    color: blue;
+ }
+ ul{
+    list-style: none;
+ }
+ .content{
+     display: flex;
+     background-color: #024282;
+ }
+ .content2{
+     display: flex;
+ }
+ #cb1{
+     margin-left:300px;
+ }
+ .content{
+     font-size: 14px;
+     height: 15%;
+     object-fit: fill;
+ }
+ .sub_1{
+     width: 25%;
+    
+ }
+ .sub-page{
+    width: 25%;
+    
+}
+ .sub_2{
+     width: 25%;
+     margin-left: -50px;
+
+ }
+ .sub_3{
+     width: 25%;
+     margin-left: -60px;
+ }
+ .si{
+     font-size: 20px;
+ }
+#cn{
+    color: red;
+    font-size: 20px;
+    margin-left: -100px;
+}
+i :hover{
+    color: blue;
+}
+.sub-page .btn{
+    color: #fff;
+    width: 100px;
+    background-color: #42719f;
+    text-align: left;
+}
+.btn{
+    display: inline-block;
+    font-weight: normal;
+    line-height: 1.25;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 8px 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+    list-style: none;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 100px;
+}
+a{
+    text-decoration:none;
+}
+.sub-page ul li :hover{
+    background-color: #fff;
+}
