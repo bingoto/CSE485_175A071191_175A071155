@@ -1,0 +1,81 @@
+/* # Empty CSS file for your own CSS */
+
+
+/*Top Header*/
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    height: auto;
+    background: rgb(2, 66, 130);
+}
+
+.container {
+    display: flex;
+}
+
+hr {
+    border-color: 3px black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container ul a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+.hotline a,
+.hotline {
+    color: #fdb913;
+    font-size: 14px;
+}
+
+.nav-link1:hover,
+.nav-link2:hover,
+.navlink3:hover {
+    text-decoration: underline;
+}
+
+
+/* Header*/
+
+
+/* 
+.main-header {
+    display: flex;
+} */
+
+.h-nav li a span {
+    /* justify-content: space-around; */
+    /* padding-left: 10px; */
+    color: blue;
+    font-size: 20px;
+}
+
+.h-nav a span:hover {
+    color: burlywood;
+}
+
+
+/*Top Main*/
+
+#menu p a {
+    color: white;
+}
+
+
+/*Between Main*/
+
+
+/*Bottom Main*/
+
+
+/*Fotter*/
