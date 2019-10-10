@@ -18,6 +18,37 @@ p a {
 li a:hover{
     color: #a99149;
 }
+.sub-page .btn {
+    width: 100%;
+    color: #fff;
+    background-color: #42719f;
+    text-align: left;
+}
+.sub-page li a:hover{
+    color:white;
+}
+/* .btn {
+    display: inline-block;
+    font-weight: normal;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: all .2s ease-in-out;
+} */
+.carousel .carousel-caption{
+    height: 100px;
+    /* width: 2000px; */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-prev span{
+
 }
 </style>
 <div class="container-fluid" >
@@ -85,7 +116,7 @@ li a:hover{
                                         </div>
 
                                         <div class="col-lg-3 col-sm-6">
-                                            <ul class="sub-page">
+                                            <ul class="sub-page" style="background-color: background-color: rgb(14, 75, 135); ">
                                                 <li><a href="http://facbook.com/daihocnguyentatthanh" class="btn"><i class="fa fa-facebook-official"></i>Facebook</a></li>
                                                 <li><a href="https://plus.google.com/112750194814925795608" class="btn"><i class="fa fa-google-plus"></i>Google Plus</a></li>
                                                 <li><a href="http://youtube.com/daihocntt" class="btn"><i class="fa fa-youtube-play"></i>Youtube</a></li>
@@ -117,23 +148,23 @@ li a:hover{
                     <hr>
                     <div class="carousel-inner">
                         <div class="carousel-item">
-                            <img class="d-block w-100" alt="Carousel Bootstrap First" src="picture/anh1.jpg">
+                            <img class="d-block w-100" alt="Carousel Bootstrap First" src="picture/slideshow1.jpg">
                             <div class="carousel-caption">   
-                                <h3>Chính sách học bổng Trường Đại học Nguyễn Tất Thành năm 2019</h3>
+                                <h4>Xét tuyển học bạ THPT lớp 12</h4>
                                 
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" alt="Carousel Bootstrap Second" src="picture/anh2.jpg">
+                            <img class="d-block w-100" alt="Carousel Bootstrap Second" src="picture/slideshow2.jpg">
                             <div class="carousel-caption">
-                              <h3>Tuyển sinh liên thông</h3>
+                              <h4>Tuyển sinh liên thông đại học</h4>
                                
                             </div>
                         </div>
                         <div class="carousel-item active">
-                            <img class="d-block w-100" alt="Carousel Bootstrap Third" src="picture/anh4.jpg">
+                            <img class="d-block w-100" alt="Carousel Bootstrap Third" src="picture/slideshow3.jpg">
                             <div class="carousel-caption">
-                            <h3>Tuyển sinh trình độ Thạc sỹ năm 2019 tại ĐH Nguyễn Tất Thành</h3>
+                            <h4>Tuyển sinh trình độ Thạc sỹ năm 2019 tại ĐH Nguyễn Tất Thành</h4>
                                 
                             </div>
                         </div>
@@ -146,8 +177,14 @@ li a:hover{
                             </div>
                         </div> -->
                     </div> 
-                    <a class="carousel-control-prev" href="#carousel-204601" data-slide="prev"><span class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a>
-                    <a class="carousel-control-next" href="#carousel-204601" data-slide="next"><span class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+                    <a class="carousel-control-prev" href="#carousel-204601" data-slide="prev">
+                        <span class="carousel-control-prev-icon" style=" padding: 0 20px 10px 0;"></span> 
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel-204601" data-slide="next" >
+                        <span class="carousel-control-next-icon" style=" padding: 0 0 10px 0;"></span> 
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
         </div>

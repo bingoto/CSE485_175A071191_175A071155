@@ -11,14 +11,13 @@
     <meta name="description" content="Source code generated using layoutit.com">
     <meta name="author" content="LayoutIt!">
     
-    <!-- <link rel="stylesheet" href="js/jquery.min.js"> -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="icons/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/slick-theme.css">
-   
-    <script src="js/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+ 
     
 </head>
 <?php
