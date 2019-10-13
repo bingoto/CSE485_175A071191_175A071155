@@ -1,7 +1,12 @@
 <style>
+header {
+    background-color: rgb(14, 75, 135);
+    height: 40px;
+}
+
 .dropdown button {
     background-color: rgb(2, 66, 130);
- 
+
 }
 
 .dropdown i {
@@ -20,35 +25,42 @@
 }
 
 form {
-    margin-left: 180px;
+    margin-left: 200px;
 }
 
 nav {
     margin-left: 60px;
 }
 
-#hotline a,
-#hotline div {
-    /* text-align: center; */
-    margin-top: 5px;
-
+.hotline {
+    margin-left: -10px;
 }
 
+#hotline .hotline a,
+#hotline div {
+    /* text-align: center; */
+    font-size: 13px;
+    margin-top: 5px;
+    color: #fdb913;
+}
+
+#hotline span {
+    margin-top: 5px;
+    color: #fdb913;
+}
 
 #hnav {
     margin-top: 7px;
 }
 
-header {
-    height: 40px;
+#hnav a:hover {
+    color: white;
 }
 
 /* style="margin-left: 100px;" form */
 </style>
 
-
 <body>
-
     <header>
 
         <!-- 0912.298.300 - 0914.298.300 : SDT2 -->
@@ -59,8 +71,8 @@ header {
 
                     <div class="hotline mb-0 text-md-left bn-bordernone bn-default" id="phoneList"
                         style="display: flex;">
-                        <div class="">Hotline: </div>
-                        &nbsp;<a href="tel:0902.298.300">0902.298.300&nbsp;-&nbsp;</a>
+                        <div>HOTLINE: </div>
+                        &nbsp;&nbsp;<a href="tel:0902.298.300">0902.298.300</a><span>&nbsp;-&nbsp;</span>
                         <a href="tel:0906.298.300">0906.298.300</a>
                     </div>
 
@@ -110,5 +122,4 @@ header {
                 </div>
             </div>
         </div>
-
     </header>

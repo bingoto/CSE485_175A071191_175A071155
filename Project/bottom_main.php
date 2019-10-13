@@ -1,10 +1,55 @@
+<style>
+.sub-slick {
+    height: 80px;
+}
+
+.thumbnail img {
+    width: 100%;
+    max-height: 200px;
+
+}
+
+.post-home .thumbnail {
+    display: block;
+    overflow: hidden;
+
+}
+
+.post-home {
+    text-align: justify;
+}
+
+.post-home a {
+    text-decoration: none;
+}
+
+.thumbnail a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding-top: 40px;
+}
+
+.sukien a {
+    color: black;
+}
+
+#xemthem {
+    color: blue;
+}
+
+#xemthem:hover {
+    text-decoration: underline;
+}
+</style>
 <div class="section d-md-flex border-top pt-4">
     <div class="col-lg-8">
         <div class="row">
             <article class="col-sm-6 post-home">
                 <h2 class="heading-2"><a href="#">Hợp tác quốc tế</a></h2>
                 <a class="thumbnail large" href="#">
-                    <img src="picture/hoptacquocte.jpg" alt="" style="width=100%; height=10px;">
+                    <img src="picture/hoptacquocte.jpg" alt="">
                 </a>
                 <a href="#" class="title" style="overflow: hidden; height: 65px;">Khoa Công nghệ Sinh học ĐH Nguyễn Tất
                     Thành làm việc với ĐH Hiroshima</a>
@@ -13,14 +58,14 @@
                         việc với ĐH Hiroshima (Nhật Bản)</p>
                 </div>
                 <ul class="list-unstyled">
-                    <li><a class="c-blue-a5 font-weight-bold" href="#"><i
+                    <li><a class="c-blue-a5 font-weight-bold" href="#" id="xemthem"><i
                                 class="fa fa-chevron-circle-right mr-2 c-blue-a5"></i>Xem thêm</a></li>
                 </ul>
             </article>
             <article class="col-sm-6 post-home">
                 <h2 class="heading-2"><a href="#">Môi trường học tập</a></h2>
                 <a class="thumbnail large" href="#">
-                    <img src="picture/moitruonghoctap.jpg" alt="" style="width=100%; height=100px;">
+                    <img src="picture/moitruonghoctap.jpg" alt="">
                 </a>
                 <a href="#" class="title" style="overflow: hidden; height: 65px;">Tìm hiểu về các câu lạc bộ tại Trường
                     ĐH Nguyễn Tất Thành</a>
@@ -36,13 +81,13 @@
                         đi trước .</p>
                 </div>
                 <ul class="list-unstyled">
-                    <li><a class="c-blue-a5 font-weight-bold" href="#"><i
+                    <li><a class="c-blue-a5 font-weight-bold" href="#" id="xemthem"><i
                                 class="fa fa-chevron-circle-right mr-2 c-blue-a5"></i>Xem thêm</a></li>
                 </ul>
             </article>
         </div>
     </div>
-    <div class="col-lg-4">
+    <div class="sukien col-lg-4">
         <h2 class="heading-2"><a href="#">Sự kiện nổi bật</a></h2>
         <ul class="list-unstyled">
             <li class="media event">
@@ -107,19 +152,18 @@
             </li>
         </ul>
         <ul class="list-unstyled">
-            <li><a class="c-blue-a5 font-weight-bold" href="#"><i
+            <li><a class="c-blue-a5 font-weight-bold" href="#" id="xemthem"><i
                         class="fa fa-chevron-circle-right mr-2 c-blue-a5"></i>Xem thêm</a></li>
         </ul>
     </div>
 </div>
 
 <!-- Tự hào thành viên -->
-<div class="section sub-slider">
+<div class="section sub-slick">
     <h2 class="heading">Tự hào là thành viên của</h2>
-
     <!-- <div class="slick-track" role="listbox" style="display: flex; opacity: 1; width: 5567px; transform: translate3d(-1465px, 0px, 0px); transition: transform 500ms ease 0s;">-->
-    -->
     <!-- target="_blank" chuyển tab mới -->
+
     <div class="slick">
         <div class="slick-slide slick-cloned" style="width: 253px;" aria-hidden="true">
             <a href="#" target="_blank"><img src="picture/slick-slider-1.png" alt="slick"
