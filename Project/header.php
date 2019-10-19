@@ -1,7 +1,21 @@
 <style>
-#link span {
+.h-nav li a span {
+    /* justify-content: space-around; */
+    padding-left: 10px;
+    color: blue;
+    /* font-size: 15px; */
+}
 
-    font-size: 20px;
+.h-nav a span:hover {
+    color: burlywood;
+}
+
+.main-header {
+    display: flex;
+}
+
+#link span {
+    font-size: 15px;
 }
 
 #link a {
@@ -30,6 +44,7 @@
                     <!-- style="margin-left: 30px;" -->
                     <li>
                         <a href="#" class="d-flex align-items-center">
+                            <!-- align-items-center căn các mục thẻ div inh hoạt -->
                             <span class="bdr-round"><i class="fa fa-info-circle"></i> Giới thiệu</span>
                             <!-- <span class="txt">Giới thiệu</span> -->
                         </a>

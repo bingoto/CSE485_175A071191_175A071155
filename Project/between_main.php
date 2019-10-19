@@ -141,7 +141,7 @@
 .sub-slider .prev {
     /* position: unset; */
     /* position: absolute; */
-    /* top: 50%; */
+    top: 50%;
     left: 20px;
     color: white;
     cursor: pointer;
@@ -227,6 +227,7 @@
 
     <i class="fa fa-chevron-left prev"></i>
     <i class="fa fa-chevron-right next"></i>
+
 
     <div class="bx-wrapper" style="margin: 0px auto;">
         <div class="multi-slide">

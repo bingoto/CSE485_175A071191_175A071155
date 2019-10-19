@@ -1,4 +1,8 @@
 <style>
+ul {
+    list-style-type: none;
+}
+
 header {
     background-color: rgb(14, 75, 135);
     height: 40px;
@@ -6,12 +10,10 @@ header {
 
 .dropdown button {
     background-color: rgb(2, 66, 130);
-
 }
 
 .dropdown i {
     background-color: rgb(138, 130, 70);
-
 }
 
 .search input {
@@ -21,15 +23,14 @@ header {
 
 .search form button {
     background-color: rgb(138, 130, 70);
-
 }
 
 form {
-    margin-left: 200px;
+    margin-left: 170px;
 }
 
 nav {
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 .hotline {
@@ -53,6 +54,10 @@ nav {
     margin-top: 7px;
 }
 
+#hnav a {
+    color: white;
+}
+
 #hnav a:hover {
     color: white;
 }
@@ -66,11 +71,9 @@ nav {
         <!-- 0912.298.300 - 0914.298.300 : SDT2 -->
         <div class="container">
             <div class="row">
-
                 <div class="d-lg-flex justify-content-md-start" id="hotline">
 
-                    <div class="hotline mb-0 text-md-left bn-bordernone bn-default" id="phoneList"
-                        style="display: flex;">
+                    <div class="hotline mb-0 text-md-left" id="phoneList" style="display: flex;">
                         <div>HOTLINE: </div>
                         &nbsp;&nbsp;<a href="tel:0902.298.300">0902.298.300</a><span>&nbsp;-&nbsp;</span>
                         <a href="tel:0906.298.300">0906.298.300</a>

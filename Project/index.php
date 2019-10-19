@@ -17,9 +17,9 @@
     <link rel="stylesheet" href="css/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery-3.2.1.min.js"></script>
-
-
 </head>
+
+
 <?php
     include ('top_header.php');
 ?>
@@ -35,6 +35,6 @@
 <?php
     include ('bottom_main.php');
 ?>
-<?php
+    <?php
     include ('footer.php');
 ?>

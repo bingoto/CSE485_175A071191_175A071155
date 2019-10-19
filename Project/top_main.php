@@ -33,6 +33,7 @@ p a {
 .sub-nav li a {
     font-size: 15px;
     font-family: monospace;
+    color: white;
 }
 
 li a:hover {
@@ -50,20 +51,7 @@ li a:hover {
     color: white;
 }
 
-/* .btn {
-    display: inline-block;
-    font-weight: normal;
-    line-height: 1.25;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    user-select: none;
-    border: 1px solid transparent;
-    padding: .5rem 1rem;
-    font-size: 1rem;
-    border-radius: .25rem;
-    transition: all .2s ease-in-out;
-} */
+
 .carousel .carousel-caption {
     height: 100px;
     /* width: 2000px; */
