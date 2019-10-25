@@ -114,11 +114,12 @@ nav {
                             <button class="btn btn-transparent btn-sm" type="button" data-toggle="dropdown"
                                 aria-expanded="false">
                                 <span><img src="picture/english.jpg" alt=""></span>
+                                
                                 <i class="fa fa-angle-down ml-1 mt-1"></i>
                             </button>
                             <div class="dropdown-menu dropdown-menu-right">
-                                <a class="dropdown-item text-center" href="#">
-                                    <img src="picture/vietnam.jpg" alt=""></a>
+                                <a class="dropdown-item text-center" href="index.php">
+                                    Logout</a>
                             </div>
                         </div>
                     </div>
